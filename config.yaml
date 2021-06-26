@@ -1,0 +1,8 @@
+port: "81"
+debug: false
+rate: 1
+bursts: 2
+image_cache: 10m
+store: "data/app_store"
+log: "data/app_log"
+chrome_data: "data/chrome"
