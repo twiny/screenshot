@@ -7,7 +7,7 @@ using [Chromium](https://github.com/chromedp/chromedp) to capture the screenshot
 # Install & Usage
  - Download
 ```
-git clone https://github.com/issmeftah/screenshot
+git clone https://github.com/twiny/screenshot
 ```
  - Install
 ```

@@ -3,9 +3,10 @@ package db
 import (
 	"encoding/json"
 	"errors"
-	"screen_shot_server/api"
 	"sync/atomic"
 	"time"
+
+	"github.com/twiny/screenshot/api"
 
 	"go.etcd.io/bbolt"
 )

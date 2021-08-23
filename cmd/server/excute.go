@@ -1,10 +1,10 @@
 package server
 
 import (
-	"screen_shot_server/api"
-	"screen_shot_server/internal/db"
-	"screen_shot_server/internal/logger"
-	"screen_shot_server/internal/rate"
+	"github.com/twiny/screenshot/api"
+	"github.com/twiny/screenshot/internal/db"
+	"github.com/twiny/screenshot/internal/logger"
+	"github.com/twiny/screenshot/internal/rate"
 )
 
 // Start

@@ -4,7 +4,8 @@ import (
 	_ "embed"
 	"log"
 	"os"
-	"screen_shot_server/cmd/server"
+
+	"github.com/twiny/screenshot/cmd/server"
 
 	"github.com/urfave/cli/v2"
 )
