@@ -11,7 +11,7 @@ git clone https://github.com/twiny/screenshot
 ```
  - Install
 ```
-go build -o bin/screenshot -v main.go
+go build -o bin/screenshot -v cmd/screen/main.go
 ```
 - Config
 app configuration
