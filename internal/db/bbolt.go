@@ -6,8 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/twiny/screenshot/api"
-
+	"github.com/twiny/screenshot/cmd/screen/api"
 	"go.etcd.io/bbolt"
 )
 

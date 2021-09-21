@@ -1,14 +1,14 @@
-package server
+package main
 
 import (
-	"github.com/twiny/screenshot/api"
+	"github.com/twiny/screenshot/cmd/screen/api"
 	"github.com/twiny/screenshot/internal/db"
-	"github.com/twiny/screenshot/internal/logger"
-	"github.com/twiny/screenshot/internal/rate"
+	"github.com/twiny/screenshot/pkg/logger"
+	"github.com/twiny/screenshot/pkg/rate"
 )
 
 // Start
-func Start(path string) error {
+func startServer(path string) error {
 	// config
 	config, err := api.YAMLConfig(path)
 	if err != nil {
